@@ -1,0 +1,28 @@
+## Ignorer les fichiers de build
+bin/
+obj/
+*.exe
+*.pdb
+*.dll.config
+*.vshost.*
+
+## Ignorer les fichiers utilisateur
+*.user
+*.suo
+.vs/
+
+## Ignorer la base de données avec données
+Database/CYPOS.mdf
+Database/CYPOS_log.ldf
+
+## Ignorer les logs
+Errors/
+*.log
+
+## Ignorer les packages
+packages/
+
+## Ignorer les fichiers temporaires
+*.cache
+*.tmp
+Thumbs.db
